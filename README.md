@@ -16,7 +16,6 @@ CREATE TABLE haproxy (
     code SMALLINT,
     bytes INTEGER,
     useragent TEXT,
-    auth CHAR (32),
     referer TEXT,
     ttfb INTEGER
 );
